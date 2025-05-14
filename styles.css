@@ -1,0 +1,145 @@
+* {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 100vw;
+    height: 100vh;
+}
+
+.esquerda {
+    width: 55%;
+    display: inline-block;
+    margin-left: 136px;
+    margin-top: 381px;
+}
+
+.direita {
+    display: inline-block;
+    height: 100%;
+    width: 35%;
+    background-color: rgba(93, 93, 125, 0.16);
+    position: absolute;
+    padding: 40px;
+}
+
+h1 {  
+    width: 368px;
+    line-height: 80px;
+    font-weight: 400;
+    font-size: 70px;
+    color: #5D5D7D;
+
+}
+
+p {
+    margin-top: 15px;
+    line-height: 48px;
+    font-size: 28px;
+    color: #5D5D7D;
+    opacity: 0.6;
+    width: 540px;
+}
+
+button {
+    margin-top: 15px;
+    background-color: #9499EA;
+    width: 269px;
+    height: 62px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: none;
+    line-height:36px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #FFF;
+   flex-shrink: 0;
+   cursor: pointer;
+   }
+   button:hover {
+    opacity: 0.5;
+   }
+   button:active  {
+    opacity: 0.4;
+   }
+header a:nth-child(2){
+opacity: 0.3;
+}
+header a:hover{
+    opacity: 0.4;
+    
+}
+    header a:active{
+        opacity: 0.7;
+    }
+    
+
+
+a{
+    line-height:41px;
+    font-weight: 400;
+    font-size: 28px;
+    color: #5D5D7D;
+    margin-left: 58px;
+    margin-top:24px ;
+    margin-left: 41px;
+    cursor: pointer;
+}
+img{
+    position: relative;
+    top: 25%;
+    right: 26%;
+    max-width: 90%;
+}
+@media screen and (max-width:900px) { /* Esse é para aplicar em celular*/
+.esquerda {
+width: 100%;
+height: 50%;
+padding: 0px;
+margin: 0px;
+ }
+.direita {
+    display: block;
+    height: auto;
+    width: 100%;
+    position: static;
+
+}
+img{
+    position: static;
+}
+header{
+    display: none;
+}
+h1{
+    font-weight: 400;
+    font-size: 36px;
+    width: auto;
+    margin: 58px 50px 0 58px;
+    text-align: center;
+}
+p{
+    font-weight: 400;
+    font-size: 14px;
+    width: auto;
+    margin: 15px 40px;
+    text-align: center;
+
+}
+button{
+    margin: auto;
+    display: block;
+}
+}
+    @media screen and (max-width:330px){
+    .esquerda{
+        height: 70%;
+    }
+
+    }
+
+
